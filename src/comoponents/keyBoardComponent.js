@@ -3,6 +3,7 @@ const letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 //console.log(letters.split(""))
 
 
+
 const KeyBoardComponent = (props)=> {
 
 
@@ -10,6 +11,7 @@ const KeyBoardComponent = (props)=> {
 
  
     const guessALetter = (e) => {
+
         //the buttons clicked
         let char = e.target.textContent
         //alert(char)
@@ -34,6 +36,7 @@ const KeyBoardComponent = (props)=> {
         //We make the following styling based on if the letter found or not
 
         if (letterFounded===0){
+
             e.target.style.color="gray"
             e.target.style.border="2px solid gray"
             //we increment the number of tries once the letter is incorrect 
@@ -42,6 +45,7 @@ const KeyBoardComponent = (props)=> {
             
         }
         else{
+
             e.target.style.backgroundColor="blue"
             console.log("found a number")
         }

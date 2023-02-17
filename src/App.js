@@ -4,9 +4,13 @@ import {
     Routes,
     Route
    } from "react-router-dom";
+
 import Game from "./Game";
 import Home from "./Pages/Home";
+import Capitals from "./Pages/Capitals"
 import GameOver from "./Pages/GameOver";
+
+
 const App = () =>{
   
     return (
@@ -15,6 +19,7 @@ const App = () =>{
                 <Route exact path="/" element={<Home />} />
                 <Route path="/Game" element={<Game />} />
                 <Route path="/GameOver" element={<GameOver />} />
+                <Route path="/Capitals" element={<Capitals />} />
               </Routes>
             </Router>
           );

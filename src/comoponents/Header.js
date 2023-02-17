@@ -8,6 +8,7 @@ const Header= (props) => {
                 <ul>
                     <Link to="/Game">Play The Game</Link>
                     <Link to="/">Help</Link>
+                    <Link to="/Capitals">Capitals Exemples</Link>
                     <label>HangMan {props.tries}/9</label>
                 </ul>
             </nav>

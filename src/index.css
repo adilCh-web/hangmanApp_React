@@ -162,3 +162,92 @@ span{
   font-size:2.3rem;
 }
 
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  color:white;
+  margin:50px auto;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+@media only screen and (max-width: 600px) {
+  .lettersBtn {
+    width:30px;
+    height:30px;
+    font-size:16px;
+  }
+  .keyBoardDiv{
+    min-width:300px;
+  }
+  .letterDivToGuess,.whiteSpace{
+    font-size:unset;
+    width:unset;
+    height:unset;
+  }
+  .wordToGuessContainer{
+    flex-wrap:wrap
+}
+
+tr:hover {background-color:rgb(5, 5, 44);}
+
+@media only screen and (max-width: 500px) {
+#hangmanPic{
+  width:200px;
+  height:auto;
+}
+
+.splitter{
+  padding:10px;
+}
+#gOver{
+  width:350px;
+}
+.gameOverDiv p{
+  font-size:1rem
+}
+span{
+  font-size:1.3rem;
+}
+h1{
+  font-size:1.2rem;
+}
+.keyBoardDiv{
+  width:100%;
+}
+ul a, ul label{
+  font-size:14px;
+}
+ul{
+  justify-content:space-between;
+}
+header{
+  display:block;
+}
+  header label{
+    display:block;
+    text-align: center;;
+  }
+}
+
+
+
+@media only screen and (max-width: 400px) {
+#gOver{
+  width:200px;
+  margin-bottom:80px;
+}
+  .lettersBtn{
+    margin:5px;
+}
+}
+}
+
+  
+
+

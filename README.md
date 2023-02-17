@@ -2,11 +2,9 @@
 # Hangman_using_React
 
 ## About the Game.
+![logo_hangman](src/imgs/state11.png)
 
-
-
-
-<img src = "./imgs/state11.png" alt = "hangman-logo" width="400" />
+<img src = "./imgs/screenshots/Capture1.png" alt = "screenshot" width="400" />
 
 This is my Capital City Hangman project - a simple game to help people learn capital cities, and to pass the time.
 
@@ -14,13 +12,15 @@ Players guess the hidden capital city letter by letter, and each time the letter
 
 If they guess the capital before the picture is complete, they win, and if the don't, they lose but still find out the hidden city, and the country it belongs to.  There is a counter which lets players know how many parts of the hangman drawing are remaining.
 
-<img src = "./imgs/screenshots/Capture.PNG" alt = "screenshot" width="300" />
+![screenshot1](src/imgs/screenshots/Capture.PNG)
 
-<img src = "./imgs/screenshots/Capture1.PNG" alt = "screenshot" width="300" />
+![screenshot2](src/imgs/screenshots/Capture1.PNG)
 
-<img src = "./imgs/screenshots/Capture2.PNG" alt = "screenshot" width="300" />
 
-<img src = "./imgs/screenshots/Capture3.PNG" alt = "screenshot" width="300" />
+![screenshot3](src/imgs/screenshots/Capture2.PNG)
+
+![screenshot4](src/imgs/screenshots/Capture3.PNG)
+
 
 ## How to install it?
 Open your terminal/Git Bash
@@ -43,8 +43,7 @@ Now having all the required dependencie installed you juat have to run the React
 This is a useful project to demonstrate the creation of a simple application using **JavaScript (React)**. It has a re-start feature and also you can navigate between the components with hyperlinks (Router, Route and Link).
 The main purpose of this project is to learn how to use hooks like usestate useEffect etc...
 
-<img src = "./imgs/screenshots/Capture4
-.PNG" alt = "screenshot" width="300" />
+![screenshot5](src/imgs/screenshots/Capture4.PNG)
 
 Users can clone this repository via GitHub using Git Clone
 Users can contact me via GitHub if they need help with this.

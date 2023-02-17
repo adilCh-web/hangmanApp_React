@@ -11,7 +11,7 @@ import state9 from "../imgs/state10.png"
 import state10 from "../imgs/state11.png"
 
 
-let arraysGifs = [state1,state2,state3,state4,state5,state6,state7,state8,state9,state10]
+let arraysPic = [state1,state2,state3,state4,state5,state6,state7,state8,state9,state10]
 
 const HangmanFrame = (props)=>{
     //const navigate = useNavigate()
@@ -19,7 +19,9 @@ const HangmanFrame = (props)=>{
         return(
         
             <div className="hangmanFrame">
-              <img src={arraysGifs[props.tries]} alt="hangmanPic"/>
+                {/* each wrong guess the tries increment by 1 which is the index of the array
+                 (pictures are in sorted states within the array)*/}
+                <img id="hangmanPic" src={arraysPic[props.tries]} alt="hangmanPic"/>
             </div> 
         )
     }
