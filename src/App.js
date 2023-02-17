@@ -10,7 +10,7 @@ import GameOver from "./Pages/GameOver";
 const App = () =>{
   
     return (
-            <Router>
+            <Router basename="/hangmanApp_React">
               <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route path="/Game" element={<Game />} />
