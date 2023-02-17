@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/hangmanApp_React/static/css/main.d5f431eb.css",
+    "main.js": "/hangmanApp_React/static/js/main.9c706c47.js",
+    "static/media/youWin.gif": "/hangmanApp_React/static/media/youWin.a3dbb14464d43e59a3e0.gif",
+    "index.html": "/hangmanApp_React/index.html",
+    "main.d5f431eb.css.map": "/hangmanApp_React/static/css/main.d5f431eb.css.map",
+    "main.9c706c47.js.map": "/hangmanApp_React/static/js/main.9c706c47.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d5f431eb.css",
+    "static/js/main.9c706c47.js"
+  ]
+}
