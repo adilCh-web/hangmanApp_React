@@ -20,6 +20,7 @@ const Capitals= ()=>{
     return(
         <div>
             <Header />
+            <p>10 Random Capitals to learn</p>
             <table>
                 <thead>
                     <tr>
@@ -73,6 +74,8 @@ const Capitals= ()=>{
 
                 </tbody>
         </table>
+
+        <p>ALL THE DATA I USED FOR THIS APP IS FROM THIS <a className ="site" href="https://www.countries-ofthe-world.com/capitals-of-the-world.html">SITE</a></p>
 
     </div>
 

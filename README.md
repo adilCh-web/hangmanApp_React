@@ -4,8 +4,6 @@
 ## About the Game.
 ![logo_hangman](src/imgs/state11.png)
 
-<img src = "./imgs/screenshots/Capture1.png" alt = "screenshot" width="400" />
-
 This is my Capital City Hangman project - a simple game to help people learn capital cities, and to pass the time.
 
 Players guess the hidden capital city letter by letter, and each time the letter isn't featured, a part of the hangman drawing appears.
@@ -49,4 +47,4 @@ Users can clone this repository via GitHub using Git Clone
 Users can contact me via GitHub if they need help with this.
 I am the sole contributor to this project, Adil Chorfi.
 
-
+![screenshot5](src/imgs/screenshots/Capture5.PNG)

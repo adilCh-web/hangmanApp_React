@@ -33,8 +33,6 @@ code {
 }
 
 .lettersBtn:hover{
-  color:blue;
-  /*background-color:rgb(39, 39, 226);*/
   padding:10px;
 }
 
@@ -71,6 +69,11 @@ img{
 .wordToGuessContainer{
   display:flex;
   flex-direction: row;
+}
+
+.site{
+  color:white;
+  text-decoration: underline;
 }
 
 
@@ -194,7 +197,9 @@ th, td {
     flex-wrap:wrap
 }
 
-tr:hover {background-color:rgb(5, 5, 44);}
+table tr:hover {
+  background-color:rgb(5, 5, 44);
+}
 
 @media only screen and (max-width: 500px) {
 #hangmanPic{
