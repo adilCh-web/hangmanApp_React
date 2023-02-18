@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/hangmanApp_React/static/css/main.b56abbc8.css",
-    "main.js": "/hangmanApp_React/static/js/main.4b61715f.js",
+    "main.css": "/hangmanApp_React/static/css/main.b0d34981.css",
+    "main.js": "/hangmanApp_React/static/js/main.961ccac7.js",
     "static/media/youWin.gif": "/hangmanApp_React/static/media/youWin.a3dbb14464d43e59a3e0.gif",
     "index.html": "/hangmanApp_React/index.html",
-    "main.b56abbc8.css.map": "/hangmanApp_React/static/css/main.b56abbc8.css.map",
-    "main.4b61715f.js.map": "/hangmanApp_React/static/js/main.4b61715f.js.map"
+    "main.b0d34981.css.map": "/hangmanApp_React/static/css/main.b0d34981.css.map",
+    "main.961ccac7.js.map": "/hangmanApp_React/static/js/main.961ccac7.js.map"
   },
   "entrypoints": [
-    "static/css/main.b56abbc8.css",
-    "static/js/main.4b61715f.js"
+    "static/css/main.b0d34981.css",
+    "static/js/main.961ccac7.js"
   ]
 }
